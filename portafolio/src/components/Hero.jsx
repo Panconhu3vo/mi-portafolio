@@ -23,7 +23,7 @@ export default function Hero() {
             </p>
             <div className="hero-ancors">
                 <a
-                    href="../../public/docs/CV-Juan Yañez.docx.pdf"
+                    href="/CV-Juan Yañez.docx.pdf"
                     download
                     className="btn-download">
                     Descargar CV

@@ -7,7 +7,7 @@ export default function AboutMe() {
             <div className="about-me">
                 <div className="info-about-me">
                     <p className="p-about-me">
-                        Soy Juan Ignacio Yañez, estudiante de la especialidad de
+                        Soy Juan Ignacio Yañez, estudiante de la especialidad de{" "}
                         <span className="span-about-me">Programación</span>, con
                         un fuerte enfoque en el desarrollo de software.
                     </p>

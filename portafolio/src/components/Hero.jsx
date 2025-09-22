@@ -26,9 +26,7 @@ export default function Hero() {
                 <a href="https://github.com/Panconhu3vo" target="_balnk">
                     <img src={github} className="img-icon" />
                 </a>
-                <a
-                    href="https://www.linkedin.com/in/juanya%C3%B1ezaravena/"
-                    target="_balnk">
+                <a href="www.linkedin.com/in/juanyañezaravena" target="_balnk">
                     <img src={linledin} className="img-icon" />
                 </a>
             </div>

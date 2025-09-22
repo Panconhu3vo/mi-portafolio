@@ -18,7 +18,7 @@ export default function Footer() {
                         />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/juan-ya%C3%B1ez-2b7b2b2a2/"
+                        href="www.linkedin.com/in/juanyañezaravena"
                         target="_blank"
                         rel="noopener noreferrer">
                         <img

@@ -68,7 +68,7 @@ export default function Projects() {
                 <div className="card-info">
                     <p className="p-title">Diccionario del Programador</p>
                     <p className="p-description">
-                        Aplicación web que permite buscar y consultar términos
+                        Aplicación que permite buscar y consultar términos
                         relacionados con programación de forma rápida y
                         ordenada.
                     </p>

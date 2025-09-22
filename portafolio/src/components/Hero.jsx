@@ -22,7 +22,12 @@ export default function Hero() {
                 fuerte carisma y la capacidad de liderar proyectos.
             </p>
             <div className="hero-ancors">
-                <button>Descargar CV</button>
+                <a
+                    href="../../public/docs/CV-Juan Yañez.docx.pdf"
+                    download
+                    className="btn-download">
+                    Descargar CV
+                </a>
                 <a href="https://github.com/Panconhu3vo" target="_balnk">
                     <img src={github} className="img-icon" />
                 </a>

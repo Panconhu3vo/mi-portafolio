@@ -108,7 +108,8 @@ nav {
     gap: 24px;
 }
 
-.hero-ancors button {
+.hero-ancors button,
+.hero-ancors .btn-download {
     padding: 12px;
     font-weight: 700;
     background-color: var(--third-1);
@@ -117,8 +118,11 @@ nav {
     color: var(--text-1);
     cursor: pointer;
     border: solid 2px var(--third-2);
+    text-decoration: none;
+    display: inline-block;
 }
-.hero-ancors button:hover {
+.hero-ancors button:hover,
+.hero-ancors .btn-download:hover {
     background-color: var(--third-2);
     opacity: 1;
     transform: scale(1.05);

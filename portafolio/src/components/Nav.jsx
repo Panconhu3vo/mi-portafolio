@@ -12,7 +12,7 @@ export default function Nav() {
             <a className="a-nav" href="#Contact">
                 Contacto
             </a>{" "}
-            <a className="a-nav" href="/CV-Juan Yañez.docx.pdf" download>
+            <a className="a-nav" href="./CV-Juan Yañez.docx.pdf" download>
                 Descargar CV
             </a>
         </nav>

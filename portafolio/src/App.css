@@ -301,9 +301,14 @@ nav {
     gap: 24px;
     flex-wrap: wrap;
 }
-
+.tech-container {
+    background-color: var(--primary-3);
+    border: solid 2px var(--border);
+    border-radius: 10px;
+    padding: 1rem;
+}
 .img-tech {
-    width: 64px;
+    width: 3rem;
     height: auto;
 }
 .img-tech:hover {

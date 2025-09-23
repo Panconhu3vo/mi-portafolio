@@ -1,0 +1,30 @@
+/* Technologies */
+
+.technologies {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.tech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.tech-container {
+    background-color: var(--primary-3);
+    border: solid 2px var(--border);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 16px #0000004d;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.tech-container:hover {
+    transform: scale(1.15);
+}
+.img-tech {
+    width: 3rem;
+    height: auto;
+}

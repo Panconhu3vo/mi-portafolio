@@ -1,0 +1,18 @@
+/* Nav section */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.a-nav {
+    color: var(--text-1);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.a-nav:hover {
+    color: var(--third-1);
+}

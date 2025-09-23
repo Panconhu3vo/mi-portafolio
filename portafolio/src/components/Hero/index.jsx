@@ -1,15 +1,21 @@
-import "../App.css";
-import avatar from "../assets/images/Logo-JY500x500.png";
-import github from "../assets/icons/github-mark-white.svg";
-import linledin from "../assets/icons/linkedin-svgrepo-com.svg";
+import React from "react";
+import "./styles.css";
+import avatar from "../../assets/images/Logo-JY500x500.png";
+import { FaGithub, FaLinkedinIn, FaFileDownload } from "react-icons/fa";
+
 export default function Hero() {
     return (
         <section className="hero">
             <div className="avatar">
-                <img className="img-avatar" src={avatar} width={120} />
+                <img
+                    className="img-avatar"
+                    src={avatar}
+                    width={120}
+                    alt="Avatar de Juan Yañez"
+                />
                 <div>
                     <p className="p-name">Juan Ignacio Yañez</p>
-                    <p className="p-title">Desarrollador Movíl</p>
+                    <p className="p-title">Desarrollador Movil</p>
                 </div>
             </div>
             <p className="p-description">
@@ -27,12 +33,21 @@ export default function Hero() {
                     download
                     className="btn-download">
                     Descargar CV
+                    <FaFileDownload />
                 </a>
-                <a href="https://github.com/Panconhu3vo" target="_balnk">
-                    <img src={github} className="img-icon" />
+                <a
+                    href="https://github.com/Panconhu3vo"
+                    target="_blank"
+                    aria-label="Perfil de GitHub"
+                    className="icon">
+                    <FaGithub />
                 </a>
-                <a href="www.linkedin.com/in/juanyañezaravena" target="_balnk">
-                    <img src={linledin} className="img-icon" />
+                <a
+                    href="https://linkedin.com/in/juanyañezaravena"
+                    target="_blank"
+                    aria-label="Perfil de LinkedIn"
+                    className="icon">
+                    <FaLinkedinIn />
                 </a>
             </div>
         </section>

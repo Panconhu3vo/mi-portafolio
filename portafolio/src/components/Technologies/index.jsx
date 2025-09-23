@@ -1,13 +1,14 @@
-import Line from "./Line";
-import gitSvg from "../assets/icons/git-svgrepo-com.svg";
-import javaSvg from "../assets/icons/java-svgrepo-com.svg";
-import nodeSvg from "../assets/icons/node-svgrepo-com.svg";
-import reactsvg from "../assets/icons/react-svgrepo-com.svg";
-import figmasvg from "../assets/icons/figma-svgrepo-com.svg";
-import jssvg from "../assets/icons/javascript-logo-svgrepo-com.svg";
-import pythonsvg from "../assets/icons/python-svgrepo-com.svg";
-import typescriptsvg from "../assets/icons/typescript-icon-svgrepo-com.svg";
-import sqlsvg from "../assets/icons/sql-database-generic-svgrepo-com.svg";
+import Line from "../Line";
+import gitSvg from "../../assets/icons/git-svgrepo-com.svg";
+import javaSvg from "../../assets/icons/java-svgrepo-com.svg";
+import nodeSvg from "../../assets/icons/node-svgrepo-com.svg";
+import reactsvg from "../../assets/icons/react-svgrepo-com.svg";
+import figmasvg from "../../assets/icons/figma-svgrepo-com.svg";
+import jssvg from "../../assets/icons/javascript-logo-svgrepo-com.svg";
+import pythonsvg from "../../assets/icons/python-svgrepo-com.svg";
+import typescriptsvg from "../../assets/icons/typescript-icon-svgrepo-com.svg";
+import sqlsvg from "../../assets/icons/sql-database-generic-svgrepo-com.svg";
+import "./styles.css";
 
 export default function Technologies() {
     return (

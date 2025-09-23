@@ -1,5 +1,7 @@
-import Line from "./Line";
-import avatar from "../assets/images/Logo-JY500x500.png";
+import Line from "../Line/";
+import avatar from "../../assets/images/Logo-JY500x500.png";
+import "./styles.css";
+
 export default function AboutMe() {
     return (
         <section id="AboutMe">

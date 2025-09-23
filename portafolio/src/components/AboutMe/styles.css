@@ -1,0 +1,31 @@
+/* About me */
+
+.about-me {
+    display: flex;
+    gap: 1rem;
+    margin: 24px 0px;
+    align-items: center;
+}
+
+.info-about-me {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.p-about-me {
+    font-size: var(--description);
+    color: var(--text-1);
+    font-weight: 500;
+}
+
+.span-about-me {
+    color: var(--third-2);
+    font-weight: 700;
+}
+
+.img-about-me {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}

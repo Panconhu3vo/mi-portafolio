@@ -1,10 +1,12 @@
 import { useState } from "react";
-import Line from "./Line";
-import copy from "../assets/icons/copy-2-svgrepo.svg";
-import tick from "../assets/icons/tick-svgrepo-com.svg";
+import Line from "../Line";
+import copy from "../../assets/icons/copy-2-svgrepo.svg";
+import tick from "../../assets/icons/tick-svgrepo-com.svg";
+import "./styles.css";
+
 export default function Contact() {
     const [copied, setCopied] = useState(false);
-    const email = "juan.yan3z06@gmail.com";
+    const email = "juan.yanez.dev@gmail.com";
 
     const handleCopy = () => {
         navigator.clipboard.writeText(email);

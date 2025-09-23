@@ -1,0 +1,92 @@
+/* Hero section */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    gap: 16px;
+    padding: 16px;
+}
+
+.hero .avatar {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.hero .img-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.hero .p-name {
+    color: var(--text-1);
+    font-size: var(--small-title);
+    font-weight: 500;
+}
+
+.hero .p-title {
+    color: var(--third-2);
+    font-size: var(--body);
+    font-weight: 500;
+}
+
+.hero .p-description {
+    color: var(--text-1);
+    font-size: var(--description);
+    font-weight: 500;
+}
+
+.hero .p-description span {
+    color: var(--third-2);
+    font-size: var(--description);
+}
+.hero .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    color: var(--text-1);
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+.hero-ancors {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero-ancors .btn-download {
+    padding: 12px;
+    font-weight: 700;
+    background-color: var(--third-1);
+    border-radius: 10px;
+    color: var(--text-1);
+    cursor: pointer;
+    border: solid 2px var(--third-2);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.hero-ancors button:hover,
+.hero-ancors .btn-download:hover {
+    background-color: var(--third-2);
+    opacity: 1;
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+.hero-ancors .img-icon {
+    width: 36px;
+}
+
+.hero-ancors a {
+    cursor: pointer;
+}
+
+.hero-ancors a:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 200ms;
+}

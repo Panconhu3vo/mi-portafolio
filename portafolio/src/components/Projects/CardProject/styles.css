@@ -1,0 +1,116 @@
+.project-card {
+    width: 600px;
+    height: auto; /* Se ajusta a la altura del contenido */
+    border-radius: 12px;
+    overflow: hidden; /* Importante para que las esquinas redondeadas se vean bien */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Estilos para la imagen del proyecto */
+.project-image-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: filter 0.5s ease-in-out; /* Transición para el efecto de sombra */
+}
+
+.project-info-container {
+    background-color: var(--primary-3);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease-in-out, background-color 0.3s;
+    transform: translateY(calc(100% - 70px));
+}
+
+/* Estilos al pasar el mouse sobre la tarjeta */
+.project-card:hover .project-info-container {
+    transform: translateY(0); /* Expande el contenedor para mostrar todo */
+}
+
+.project-card:hover .project-image {
+    filter: brightness(
+        60%
+    ); /* Oscurece la imagen para que el texto sea visible */
+}
+
+/* Estilos del encabezado (título y enlace) */
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.project-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--text-1);
+}
+
+.view-more {
+    text-decoration: none;
+    color: var(--text-1);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.view-more:hover {
+    color: var(--third-2);
+}
+
+/* Estilos para el bloque de detalles (descripción, aporte, tecnologías) */
+.project-details {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out,
+        height 0.5s ease-in-out;
+}
+
+.project-card:hover .project-details {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    margin-top: 10px;
+}
+
+.project-details p {
+    margin: 5px 0;
+    line-height: 1.4;
+    color: var(--text-2);
+}
+
+/* Estilos para los íconos de tecnología */
+.tech-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 2rem;
+    color: var(--border);
+    margin-top: 10px;
+}
+
+.tech-icons svg {
+    transition: transform 0.2s;
+}
+
+.tech-icons svg:hover {
+    transform: scale(1.1);
+    color: var(--third-2);
+}

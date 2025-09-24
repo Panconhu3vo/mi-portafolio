@@ -33,7 +33,10 @@ const ProjectCard = ({ project, images }) => {
             <div className="project-info-container">
                 <div className="project-header">
                     <h3 className="project-title">{project.title}</h3>
-                    <a href={project.link} className="view-more">
+                    <a
+                        href={project.link}
+                        className="view-more"
+                        target="_blank">
                         Ver más <FaArrowRight />
                     </a>
                 </div>

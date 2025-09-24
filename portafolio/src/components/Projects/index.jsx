@@ -26,7 +26,7 @@ export default function Projects() {
         },
     ];
     return (
-        <section className="projects">
+        <section className="projects" id="Projects">
             <Line text={"Proyectos"} />
             <CardProject project={projects[0]} images={ponderapaes} />
             <CardProject project={projects[1]} images={diccionario} />

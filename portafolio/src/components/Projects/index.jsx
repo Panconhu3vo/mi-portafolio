@@ -13,7 +13,7 @@ export default function Projects() {
             contribution:
                 "Lideré el desarrollo completo, creando una arquitectura modular con componentes reutilizables, asegurando precisión con datos oficiales del DEMRE y diseñando la interfaz y documentación del proyecto.",
             technologies: ["javascript", "react", "python", "figma", "git"],
-            link: "#",
+            link: "https://github.com/Panconhu3vo/Pondera-PAES",
         },
         {
             title: "Diccionario del Programador",
@@ -22,7 +22,7 @@ export default function Projects() {
             contribution:
                 "Lideré el proyecto, diseñé la interfaz en Figma, desarrollé la funcionalidad de búsqueda e integré la base de datos.",
             technologies: ["python", "figma"],
-            link: "#",
+            link: "https://github.com/Panconhu3vo/Ejercicio-Integrado",
         },
     ];
     return (

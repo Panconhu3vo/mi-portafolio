@@ -1,6 +1,8 @@
 import "./styles.css";
 import CardProject from "./CardProject";
 import diccionario from "../../assets/images/DiccionarioDelProgramador.jpeg";
+import ponderapaes from "../../assets/images/PonderaPAES.svg";
+import Line from "../Line";
 
 export default function Projects() {
     const projects = [
@@ -14,17 +16,20 @@ export default function Projects() {
             link: "#",
         },
         {
-            title: "E-commerce React",
-            description: "Un proyecto de tienda online usando React y Redux.",
+            title: "Diccionario del Programador",
+            description:
+                "Aplicación que permite buscar y consultar términos relacionados con programación de forma rápida y ordenada.",
             contribution:
-                "Diseño de la interfaz de usuario y manejo del estado global.",
-            technologies: ["html", "css", "javascript"],
+                "Lideré el proyecto, diseñé la interfaz en Figma, desarrollé la funcionalidad de búsqueda e integré la base de datos.",
+            technologies: ["python", "figma"],
             link: "#",
         },
     ];
     return (
         <section className="projects">
-            <CardProject project={projects[0]} images={diccionario} />
+            <Line text={"Proyectos"} />
+            <CardProject project={projects[0]} images={ponderapaes} />
+            <CardProject project={projects[1]} images={diccionario} />
         </section>
     );
 }

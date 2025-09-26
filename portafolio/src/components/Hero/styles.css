@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     width: 40rem;
+
     gap: 16px;
     padding: 16px;
 }
@@ -22,7 +23,7 @@
 .hero .p-name {
     color: var(--text-1);
     font-size: var(--small-title);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .hero .p-title {
@@ -78,7 +79,7 @@
 }
 
 .hero-ancors .img-icon {
-    width: 36px;
+    width: 1.5rem;
 }
 
 .hero-ancors a {
@@ -89,4 +90,5 @@
     cursor: pointer;
     transform: scale(1.08);
     transition: 200ms;
+    color: var(--third-2);
 }

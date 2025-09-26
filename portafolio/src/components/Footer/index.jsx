@@ -5,7 +5,9 @@ export default function Footer() {
     return (
         <footer className="footer-section">
             <div className="footer-content">
-                <span className="footer-text">© 2025 Juan Yañez.</span>
+                <span className="footer-text">
+                    © 2025 Juan Yañez. Casi todos los derechos reservados.
+                </span>
                 <div className="footer-links">
                     <a
                         href="https://github.com/Panconhu3vo"

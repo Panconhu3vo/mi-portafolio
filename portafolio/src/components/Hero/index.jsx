@@ -29,13 +29,6 @@ export default function Hero() {
             </p>
             <div className="hero-ancors">
                 <a
-                    href="/docs/CV-Juan Yañez.docx.pdf"
-                    download
-                    className="btn-download">
-                    Descargar CV
-                    <FaFileDownload />
-                </a>
-                <a
                     href="https://github.com/Panconhu3vo"
                     target="_blank"
                     aria-label="Perfil de GitHub"

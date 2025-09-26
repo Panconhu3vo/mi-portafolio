@@ -15,4 +15,5 @@ nav {
 
 .a-nav:hover {
     color: var(--third-1);
+    transition: 150ms;
 }

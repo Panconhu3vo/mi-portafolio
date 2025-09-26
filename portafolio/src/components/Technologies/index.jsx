@@ -19,17 +19,6 @@ export default function Technologies() {
                     <img className="img-tech" src={reactsvg} alt="React" />
                 </div>
                 <div className="tech-container">
-                    <img className="img-tech" src={figmasvg} alt="Figma" />
-                </div>
-                <div className="tech-container">
-                    <img className="img-tech" src={gitSvg} alt="Git" />
-                </div>
-
-                <div className="tech-container">
-                    <img className="img-tech" src={javaSvg} alt="Java" />
-                </div>
-
-                <div className="tech-container">
                     <img className="img-tech" src={jssvg} alt="JavaScript" />
                 </div>
 
@@ -43,6 +32,18 @@ export default function Technologies() {
                 <div className="tech-container">
                     <img className="img-tech" src={nodeSvg} alt="Node.js" />
                 </div>
+
+                <div className="tech-container">
+                    <img className="img-tech" src={gitSvg} alt="Git" />
+                </div>
+                <div className="tech-container">
+                    <img className="img-tech" src={figmasvg} alt="Figma" />
+                </div>
+
+                <div className="tech-container">
+                    <img className="img-tech" src={javaSvg} alt="Java" />
+                </div>
+
                 <div className="tech-container">
                     <img className="img-tech" src={pythonsvg} alt="Python" />
                 </div>

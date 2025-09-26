@@ -33,14 +33,14 @@ export default function Hero() {
                     target="_blank"
                     aria-label="Perfil de GitHub"
                     className="icon">
-                    <FaGithub />
+                    <FaGithub /> Github
                 </a>
                 <a
                     href="https://linkedin.com/in/juanyañezaravena"
                     target="_blank"
                     aria-label="Perfil de LinkedIn"
                     className="icon">
-                    <FaLinkedinIn />
+                    <FaLinkedinIn /> LinkedIn
                 </a>
             </div>
         </section>

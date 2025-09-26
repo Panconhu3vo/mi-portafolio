@@ -1,5 +1,5 @@
 import Line from "../Line/";
-import avatar from "../../assets/images/Logo-JY500x500.png";
+import avatar from "../../assets/images/Logo-JY500x500.webp";
 import "./styles.css";
 
 export default function AboutMe() {

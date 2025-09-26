@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import avatar from "../../assets/images/Logo-JY500x500.png";
+import avatar from "../../assets/images/Logo-JY500x500.webp";
 import { FaGithub, FaLinkedinIn, FaFileDownload } from "react-icons/fa";
 
 export default function Hero() {

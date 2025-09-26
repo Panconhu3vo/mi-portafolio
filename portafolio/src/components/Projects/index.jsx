@@ -1,7 +1,7 @@
 import "./styles.css";
 import CardProject from "./CardProject";
-import diccionario from "../../assets/images/DiccionarioDelProgramador.jpeg";
-import ponderapaes from "../../assets/images/PonderaPAES.svg";
+import diccionario from "../../assets/images/DiccionarioDelProgramador.webp";
+import ponderapaes from "../../assets/images/PonderaPAES.webp";
 import Line from "../Line";
 
 export default function Projects() {
